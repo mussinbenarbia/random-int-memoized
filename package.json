@@ -1,0 +1,11 @@
+{
+  "name": "random-int-memoized",
+  "version": "1.0.0",
+  "description": "A random integer generator that does not pick the same number twice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mussin Benarbia",
+  "license": "ISC"
+}
