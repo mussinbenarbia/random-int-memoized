@@ -2,10 +2,15 @@
   "name": "random-int-memoized",
   "version": "1.0.0",
   "description": "A random integer generator that does not pick the same number twice until it runs out of unique numbers.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mussinbenarbia/random-int-memoized.git"
   },
   "files": [
     "lib/**/*"
