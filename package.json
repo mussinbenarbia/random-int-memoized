@@ -4,6 +4,7 @@
   "description": "A random integer generator that does not pick the same number twice until it runs out of unique numbers.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "homepage": "https://github.com/mussinbenarbia/random-int-memoized",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc"
@@ -14,6 +15,14 @@
   },
   "files": [
     "lib/**/*"
+  ],
+  "keywords": [
+    "random",
+    "number",
+    "integer",
+    "generator",
+    "repeat",
+    "unique"
   ],
   "author": "Mussin Benarbia",
   "license": "ISC",
