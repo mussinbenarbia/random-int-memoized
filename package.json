@@ -1,11 +1,22 @@
 {
   "name": "random-int-memoized",
   "version": "1.0.0",
-  "description": "A random integer generator that does not pick the same number twice",
+  "description": "A random integer generator that does not pick the same number twice until it runs out of unique numbers.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "author": "Mussin Benarbia",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  }
 }
